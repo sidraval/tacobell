@@ -1,0 +1,3 @@
+== Taco Bell Food Name Generator
+
+A toy to generate names for faux taco bell food.
