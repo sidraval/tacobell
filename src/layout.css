@@ -1,28 +1,6 @@
-#mainwrapper {
-	text-align: center;
-	min-width: 500px;
-	width: 50%;
-	margin: 0px auto;
-	font-family: 'Oswald', sans-serif;
-}
-
-#instructions {
-	font-size: 1.5em;
-	color: #ddd;
-}
-
-#sublogo {
-	margin-top: -25px;
-	padding-left: 5px;
-	font-size: 1.5em;
-}
-
-#food {
-	font-size: 3.5em;
-}
-
-#order {
-	padding-top: 70px;
-	font-size: 3.5em;
-	color: #888;
+html, body, ul, li, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
 }

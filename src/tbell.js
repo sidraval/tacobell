@@ -30,8 +30,17 @@
 
   TB.UI = {
     initialize: function(selector) {
-                  $(selector).on("click", "li", function() {
-                  });
-                }
+                  $("#preword").html(TB.currentWords.preword);
+                  $("#prefix").html(TB.currentWords.prefix);
+                  $("#suffix").html(TB.currentWords.suffix);
+                  $("#postword").html(TB.currentWords.postword);
+
+                  $(selector).on("click", "li", TB.UI.handleClick);
+                },
+
+    handleClick: function(e) {
+                   TB.newWord(e.currentTarget.id);
+                   $("#" + e.currentTarget.id).html(TB.currentWords[e.currentTarget.id]);
+                 }
   };
 })(window);
