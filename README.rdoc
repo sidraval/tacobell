@@ -1,3 +1,0 @@
-== Taco Bell Food Name Generator
-
-A toy to generate names for faux taco bell food. Development deploy @ http://192.73.238.133/tacobell

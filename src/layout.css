@@ -1,0 +1,98 @@
+footer, html, body, ul, li, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#preword {
+  color: red;
+}
+
+#prefix {
+  color: blue;
+}
+
+#suffix {
+  color: green;
+}
+
+#postword {
+  color: purple;
+}
+
+li {
+  cursor: pointer;
+}
+
+#suffix {
+  margin-left: -4px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    background: url(./tbell.png);
+    width: 313px;
+    height: 390px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 60px;
+    margin: 0 auto 25px auto;
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline;
+    font-size: 36px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2.0em;
+  }
+
+  li {
+    font-size: 2em;
+  }
+
+  ul {
+    text-align: center;
+  }
+  
+  header {
+    background: url(./tbell.png);
+    width: 313px;
+    height: 260px;
+    margin: 0 auto;
+  }
+
+  #suffix, #prefix {
+    display: inline-block;
+  }
+}
